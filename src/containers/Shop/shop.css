@@ -1,0 +1,63 @@
+.shop-container {
+  height: 100%;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font2);
+  gap: 5rem;
+  padding-top: 5rem;
+}
+
+.shop-container h1 {
+  color: #222;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tablist {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-decoration: none;
+  width: 100%;
+  background-color: var(--dark-green);
+  color: var(--white);
+  font-size: 1.5rem;
+  font-family: var(--font2);
+  border-radius: 5px;
+  list-style: none;
+  margin-bottom: 5rem;
+  outline: none;
+  padding: 10px;
+}
+.react-tabs__tab--selected {
+  text-decoration: underline;
+  color: var(--green);
+  outline: none;
+  border-radius: 50px;
+}
+
+.tab-item {
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.tab-item:hover{
+  text-decoration: underline;
+}
+
+@media screen and (max-width:1472px){
+  .cards{
+    justify-content: center;
+  }
+}

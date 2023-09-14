@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@font-face {
+  font-family: "Ponjoung Medium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Ponjoung Medium"), url("Ponjoung-Medium.woff") format("woff");
+}
+
+:root {
+  --dark-green: #4D654D;
+  --blue: #757b8f;
+  --red: #a44741;
+  --green: #a6b95f;
+  --white: #efebe4;
+  --font1: 'Anton', sans-serif;
+  --font2: "Ponjoung Medium", arial;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.section-padding {
+  padding: 2.25rem;
+}

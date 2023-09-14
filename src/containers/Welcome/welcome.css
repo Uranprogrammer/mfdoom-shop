@@ -1,0 +1,27 @@
+.welcome-container{
+    background-color: var(--red);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.welcome-container h1{
+    font-family: var(--font1);
+    font-weight: 200;
+    font-size: clamp(1rem, 0.9593rem + 4.0724vw, 3.25rem);
+}
+
+.welcome-container p{
+    font-family: var(--font2);
+    font-size: clamp(1rem, 0.8955rem + 0.7969vw, 1.8rem);
+    width: 50%;
+}
+
+@media screen and (max-width:783px){
+    .welcome-container p{
+        width: 100%;
+    }
+}

@@ -1,0 +1,93 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--green);
+  width: 20rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  gap: 10px;
+  cursor: default;
+  margin: 20px;
+}
+
+.card-image_container {
+  background-color: var(--dark-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 50%;
+  width: 80%;
+}
+
+.card-image_container img {
+  width: 100%;
+}
+
+.card-container h2 {
+  font-family: var(--font2);
+  color: #fff;
+  font-size: clamp(1rem, -0.75rem + 4vw, 1.5rem);
+  margin-top: 10px;
+}
+
+.card-price_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-family: var(--font2);
+  width: 80%;
+  color: #222;
+}
+
+.card-price_container p:first-child {
+  font-size: clamp(1.2rem, -0.85rem + 4vw, 1.6rem);
+}
+
+.card-price_container p:nth-child(2) {
+  text-decoration: line-through;
+  color: #222;
+  opacity: 0.5;
+  font-size: clamp(0.8rem, -0.125rem + 2vw, 1rem);
+}
+
+.AddToCart-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  font-family: var(--font2);
+  color: var(--dark-green);
+  font-size: clamp(0.8rem, 0.425rem + 1.2vw, 1.1rem);
+}
+
+.AddToCart-container h3 {
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.AddToCart-container h3:hover {
+  opacity: 0.7;
+}
+
+.AddToCart-container a {
+  color: #444;
+  font-size: clamp(1rem, 0.425rem + 1.2vw, 1.2rem);
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.AddToCart-container a:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width:459px){
+  .card-container{
+    width: 20rem;
+  }
+}
