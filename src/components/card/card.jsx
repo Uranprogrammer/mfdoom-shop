@@ -14,7 +14,7 @@ function Card({ imageSrc, productName, originalPrice, discountedPrice }) {
         <p>{discountedPrice}</p>
       </div>
       <div className="AddToCart-container">
-        <h3>Add To Cart</h3>
+        <h3>Order Now</h3>
         <a>
           <FaHeart />
         </a>

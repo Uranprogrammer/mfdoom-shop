@@ -13,7 +13,7 @@ function Navbar() {
   };
 
   return (
-    <div>
+    <div className="navbar-container">
      <header className="section-padding">
         <div className="logo-image">
           <img src={logo} />

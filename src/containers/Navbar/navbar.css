@@ -16,7 +16,7 @@ nav {
 
 nav a {
   margin: 0 2rem;
-  color: #000;
+  color: #222;
   text-decoration: none;
   transition: 300ms;
   cursor: pointer;
@@ -52,6 +52,7 @@ nav a:hover {
   .nav-btn {
     visibility: visible;
     opacity: 1;
+    color: #222;
   }
 
   header nav {
@@ -69,6 +70,9 @@ nav a:hover {
     transform: translateY(-100vh);
     z-index: 99;
     transition: 300ms;
+    -webkit-box-shadow: -27px 3px 185px -74px rgba(36, 36, 36, 1);
+    -moz-box-shadow: -27px 3px 185px -74px rgba(36, 36, 36, 1);
+    box-shadow: -27px 3px 185px -74px rgba(36, 36, 36, 1);
   }
 
   header nav a {
@@ -114,25 +118,25 @@ nav a:hover {
   }
 }
 
-@media screen and (max-width:791px){
+@media screen and (max-width: 791px) {
   .logo-image img {
     width: 7rem;
   }
 }
 
-@media screen and (max-width:432px){
+@media screen and (max-width: 432px) {
   .logo-image img {
     width: 5.5rem;
   }
 }
 
-@media screen and (max-width:470px){
-  header nav a{
+@media screen and (max-width: 470px) {
+  header nav a {
     font-size: 2.3rem;
   }
 }
-@media screen and (max-width:262px){
-  header nav a{
+@media screen and (max-width: 262px) {
+  header nav a {
     font-size: 1.8rem;
   }
 }
